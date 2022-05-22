@@ -1,0 +1,24 @@
+{
+    "require": {
+        "twig/twig": "1.*",
+        "ext-pdo": "*",
+        "ext-memcache": "*",
+      "ext-mbstring": "*"
+    },
+    "authors": [
+        {
+            "name": "Vitaly Nosov",
+            "email": "vitalinosov2000@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "core\\base\\": "vendor/core/base",
+          "core\\libs\\": "vendor/core/libs",
+          "core\\": "vendor/core",
+          "controllers\\": "app/controllers",
+          "widgets\\": "app/widgets",
+          "models\\": "app/models"
+        }
+    }
+}
